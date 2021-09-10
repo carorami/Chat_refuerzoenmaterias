@@ -1,0 +1,26 @@
+{
+  "name": "Chat_refuerzoenmaterias",
+  "version": "1.0.0",
+  "description": "Chat con socket.io para reforzar asignaturas en los estudiantes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carorami/Chat_refuerzoenmaterias.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carorami/Chat_refuerzoenmaterias/issues"
+  },
+  "homepage": "https://github.com/carorami/Chat_refuerzoenmaterias#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "socket.io": "^4.2.0"
+  }
+}
